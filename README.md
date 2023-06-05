@@ -1,0 +1,8 @@
+# lung-cancer-detection
+By utilizing a large dataset comprising high-resolution lung scans provided by the National Cancer Institute, participants in a competition developed algorithms that accurately identify cancerous lesions in the lungs. This breakthrough significantly reduces the rate of false positive results associated with current detection technology. Consequently, patients can receive life-saving interventions at an earlier stage, and radiologists can allocate more time to patient care. However, it is important to note that the dataset used in the competition is no longer available for download due to usage restrictions.
+
+The dataset provided for the competition consists of thousands of low-dose CT images in DICOM format. Each image represents a series of axial slices of the chest cavity, with the number of 2D slices varying based on the scanning machine and the patient. The DICOM files contain essential information such as patient ID and scan parameters, including slice thickness.
+
+The objective of the competition was to develop an automated method capable of determining whether a patient would be diagnosed with lung cancer within one year of the scan date. The ground truth labels for the dataset were confirmed through pathology diagnosis.
+
+It's worth noting that the images in the dataset originate from various sources, leading to variations in quality. For instance, older scans were obtained using less advanced equipment. Generally, the stage 2 data in the dataset is more recent and of higher quality compared to the stage 1 data, with thinner slice thickness. It is desirable for the developed algorithm to perform well across a range of image qualities.
